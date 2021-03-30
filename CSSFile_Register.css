@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+body{
+	font: 'NanumGothic';
+	background-color:#a5f4f1;
+}
+
+h1{
+
+   font-size: 40px;
+   text-align:center;
+   color: #eb4655;
+}
+h2{
+   color: red;
+}
+
+table{
+	width: 1000px;
+	border-collapse: collapse;
+	column-gap: 40px;
+}
+td,th{
+    border-bottom:1px solid black;
+    text-align:center;
+    padding:3px;
+}
+th {
+    font-style: italic;
+    /*font-style: bold;*/
+    background-color:#7ec314;
+    color:blue;
+}
+td{
+    font-size: oblique;
+    background-color:#d4ff00;
+    color:black;
+}
